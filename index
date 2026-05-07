@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SDGs</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: transparent;
+    }
+
+    .sdg-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 20px;
+      padding: 4px;
+    }
+
+    .sdg-card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: transparent;
+
+      transition:
+        transform 0.3s ease,
+        filter 0.3s ease;
+    }
+
+    .sdg-card:hover,
+    .sdg-card:focus-visible {
+      transform: translateY(-6px) scale(1.02);
+      filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.18));
+      outline: none;
+    }
+
+    .sdg-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .sdg-card {
+        transition: none;
+      }
+
+      .sdg-card:hover,
+      .sdg-card:focus-visible {
+        transform: none;
+        filter: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="sdg-grid">
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/1-no-poverty"
+       target="_top"
+       title="Keine Armut">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/3-good-health-and-well-being/e-web-goal-01.png/@@images/image/teaser"
+           alt="1 Keine Armut">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/2-zero-hunger"
+       target="_top"
+       title="Kein Hunger">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-02.png/@@images/image/teaser"
+           alt="2 Kein Hunger">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/3-good-health-and-well-being"
+       target="_top"
+       title="Gesundheit und Wohlergehen">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-03.png/@@images/image/teaser"
+           alt="3 Gesundheit und Wohlergehen">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/4-quality-education"
+       target="_top"
+       title="Hochwertige Bildung">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-04.png/@@images/image/teaser"
+           alt="4 Hochwertige Bildung">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/5-gender-equality"
+       target="_top"
+       title="Geschlechtergleichheit">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-05.png/@@images/image/teaser"
+           alt="5 Geschlechtergleichheit">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/6-clean-water-and-sanitation"
+       target="_top"
+       title="Sauberes Wasser und Sanitäreinrichtungen">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-06.png/@@images/image/teaser"
+           alt="6 Sauberes Wasser und Sanitäreinrichtungen">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/7-affordable-and-clean-energy"
+       target="_top"
+       title="Bezahlbare und saubere Energie">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-07.png/@@images/image/teaser"
+           alt="7 Bezahlbare und saubere Energie">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/8-decent-work-economic-growth"
+       target="_top"
+       title="Menschenwürdige Arbeit und Wirtschaftswachstum">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-08.png/@@images/image/teaser"
+           alt="8 Menschenwürdige Arbeit und Wirtschaftswachstum">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/9-industry-innovation-and-infrastructure"
+       target="_top"
+       title="Industrie, Innovation und Infrastruktur">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-09.png/@@images/image/teaser"
+           alt="9 Industrie, Innovation und Infrastruktur">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/10-reduced-inequalities"
+       target="_top"
+       title="Weniger Ungleichheiten">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-10.png/@@images/image/teaser"
+           alt="10 Weniger Ungleichheiten">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/11-sustainable-cities-and-communities"
+       target="_top"
+       title="Nachhaltige Städte und Gemeinden">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-11.png/@@images/image/teaser"
+           alt="11 Nachhaltige Städte und Gemeinden">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/12-responsible-consumption-and-production"
+       target="_top"
+       title="Nachhaltige/r Konsum und Produktion">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-12.png/@@images/image/teaser"
+           alt="12 Nachhaltige/r Konsum und Produktion">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/13-climate-action"
+       target="_top"
+       title="Maßnahmen zum Klimaschutz">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-13.png/@@images/image/teaser"
+           alt="13 Maßnahmen zum Klimaschutz">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/14-life-below-water"
+       target="_top"
+       title="Leben unter Wasser">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-14.png/@@images/image/teaser"
+           alt="14 Leben unter Wasser">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/15-life-on-land"
+       target="_top"
+       title="Leben an Land">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-15.png/@@images/image/teaser"
+           alt="15 Leben an Land">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/16-peace-justice-and-strong-institutions"
+       target="_top"
+       title="Frieden, Gerechtigkeit und starke Institutionen">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-16.png/@@images/image/teaser"
+           alt="16 Frieden, Gerechtigkeit und starke Institutionen">
+    </a>
+
+    <a class="sdg-card"
+       href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/17-partnerships-for-the-goals"
+       target="_top"
+       title="Partnerschaften zur Erreichung der Ziele">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/e-web-goal-17.png/@@images/image/teaser"
+           alt="17 Partnerschaften zur Erreichung der Ziele">
+    </a>
+
+    <a class="sdg-card"
+       href="https://sdgs.un.org/goals"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="Globale Nachhaltigkeitsziele">
+      <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/sdg-logo_grau.jpg/@@images/image/teaser"
+           alt="Globale Nachhaltigkeitsziele">
+    </a>
+
+<a class="sdg-card"
+   href="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/interaktives-gluecksrad/"
+   target="_top"
+   title="Interaktives SDG-Glücksrad">
+  <img src="https://www.fz-juelich.de/de/ueber-uns/mission/nachhaltigkeit/gluecksrad-2.png/@@images/image-960-4096cce6b0ca7fb4b679768a55041b53.png"
+       alt="Interaktives SDG-Glücksrad">
+</a>
+  </div>
+
+</body>
+</html>
